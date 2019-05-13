@@ -21,8 +21,6 @@ export const deleteTodo = id => {
     method: 'DELETE',
     data: id
   };
-  // eslint-disable-next-line no-console
-  console.log(id);
   return instance(`${TODO_API_ENDPOINT}/${id}`, options);
 };
 
@@ -41,7 +39,5 @@ export const editTodo = ({ todo, id }) => {
     method: 'PUT',
     data: todo
   };
-  // eslint-disable-next-line no-console
-  console.log(options);
   return instance(`${TODO_API_ENDPOINT}/${id}`, options);
 };

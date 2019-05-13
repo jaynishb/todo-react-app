@@ -145,10 +145,6 @@
       "web.jsx",
       "jsx",
       "node"
-    ],
-    "watchPlugins": [
-      "/Users/vaidehipatel/Projects/google-map/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/vaidehipatel/Projects/google-map/node_modules/jest-watch-typeahead/testname.js"
     ]
   },
   "babel": {

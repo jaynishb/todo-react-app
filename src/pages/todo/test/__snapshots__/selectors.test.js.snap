@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo Selectors exports 1`] = `
+Object {
+  "selectTodo": [Function],
+  "selectTodoError": [Function],
+  "selectTodoloading": [Function],
+  "selectTodos": [Function],
+}
+`;
+
+exports[`Todo Selectors should select map state 1`] = `
+Object {
+  "data": Array [],
+  "error": null,
+  "loading": false,
+}
+`;
+
+exports[`Todo Selectors should select the error state 1`] = `null`;
+
+exports[`Todo Selectors should select the loading state 1`] = `false`;
+
+exports[`Todo Selectors should select the todo 1`] = `Array []`;

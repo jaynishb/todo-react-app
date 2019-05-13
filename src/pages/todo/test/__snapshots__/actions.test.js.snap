@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todo actions should be defined 1`] = `
+Object {
+  "addTodo": [Function],
+  "deleteTodo": [Function],
+  "editTodo": [Function],
+  "getTodos": [Function],
+}
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`query reducer creator should have a well defined initial state for query reducer creation. 1`] = `
+Object {
+  "data": Array [],
+  "error": null,
+  "loading": false,
+}
+`;

@@ -49,8 +49,6 @@ export function* getTodosData() {
 
 export function* deleteTodoData({ id }) {
   try {
-    // eslint-disable-next-line no-console
-    console.log(id);
     yield put(request());
     yield call(deleteTodosService, id);
     yield put(getTodos());
@@ -63,8 +61,6 @@ export function* deleteTodoData({ id }) {
   }
 }
 export function* editTodoData({ todo, id }) {
-  // eslint-disable-next-line no-console
-  console.log(todo, id, 'saga');
   try {
     yield put(request());
     yield call(EditTodosService, {

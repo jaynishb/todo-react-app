@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`query literals creator should create correct literals 1`] = `
+Object {
+  "ERROR": "TEST_ERROR",
+  "REQUEST": "TEST_REQUEST",
+  "SUCCESS": "TEST_SUCCESS",
+}
+`;
